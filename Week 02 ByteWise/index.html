@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Anas Khan Portfolio </title>
+
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="nav-logo"> Anas Khan </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" class="contact">About</a></li>
+                <li><a href="#experience" class="contact">Experience</a></li>
+                <li><a href="#projects" class="contact">Projects</a></li>
+                <li><a href="#contact" class="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anas Khan </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Image-01.jpg" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,My Names is </p>
+            <h1 class="title"> Anas Khan </h1>
+            <p class="section__text__p2">Mern Dev at ByteWise </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" style="color: black;">
+                    View Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.png" alt=" LinkedIn profile " class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/anas-khan-b55703265'" />
+                <img src="github.png" alt=" Github " class="icon"
+                    onclick="location.href='https://github.com/Anas-Khannn'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="Image-02.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1 year<br />Front-End Web Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>BS Software Engineering <br /> FAST NUCES Peshawar </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hello, my name is Anas Khan. I'm a fourth-semester student of Software Engineering at FAST
+                        NUCES, Peshawar Campus. Additionally, I am a MERN stack intern in the Bye Wise Fellowship Batch
+                        3. I am also very active with tech communities and host events for students to improve their
+                        skills, as well as to enhance my own in the process.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Front-End Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>BootStrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Programming</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DSA</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3> Java </h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">My Most Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="portfolio.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Personal Portfolio </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Anas-Khannn/Personal-Portfolio'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://anas-khannn.github.io/Personal-Portfolio/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="project-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Simple Calculator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Anas-Khannn/Code-Soft-Internship-'">
+                            Github
+                        </button>
+                        
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="oop.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">OOP-Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Anas-Khannn/-Object-Oriented-Programming'">
+                            Github
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Reach Out To Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p>
+                    <a href="p229111@pwr.nu.edu.pk">p229111@pwr.nu.edu.pk</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p>
+                    <a href="https://www.linkedin.com/in/anas-khan-b55703265">Anas Khan</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Anas Khan. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector(".menu-links");
+            const icon = document.querySelector(".hamburger-icon");
+            menu.classList.toggle("open");
+            icon.classList.toggle("open");
+        }
+    </script>
+</body>
+
+</html>
