@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #a67ce6;
+    
+}
+body {
+  background-image: linear-gradient(rgba(149, 149, 161, 0.8), rgba(136, 136, 206, 0.7)),
+                    url(/BackGround.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+    background: linear-gradient(135deg, #141515, #796b8f, #936a8c);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: invert 5px 5px 12px #fff, 5px 5px 12px rgba(58, 58, 158, 0.8);
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+input{
+    grid-column: span 4;
+    width: 260px;
+    height: 70px;
+    background-color: #ecf0f3;
+    border: none;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+    outline: none;
+    font-size: 45px;
+    text-align: end;
+    margin: 40px auto;
+    padding: 10px;
+}
+input::placeholder{
+    color: #38363a;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 50%;
+    border: none;
+    margin: 8px auto;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+ 
+button:hover {
+    transform: scale(0.95);
+    box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+  
+.equal{
+    width: 120px;
+    border-radius: 40px;
+    margin: 8px 12px;
+}
